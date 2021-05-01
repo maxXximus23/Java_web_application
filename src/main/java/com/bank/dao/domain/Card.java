@@ -27,10 +27,10 @@ public class Card {
     @Column(name = "Privilege")
     private CardPrivilege Privilege;
 
-    @Column(name = "CVC")
+    @Column(columnDefinition = "char(3)", name = "CVC")
     private String CVC;
 
-    @Column(name = "PinCode")
+    @Column(columnDefinition = "char(4)", name = "PinCode")
     private String PinCode;
 
     @Column(name = "IsLocked")

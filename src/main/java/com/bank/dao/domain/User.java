@@ -27,7 +27,7 @@ public class User {
     @Column(name = "Patronymic")
     private String Patronymic;
 
-    @Column(columnDefinition = "char(4)", name = "PassportCode")
+    @Column(name = "PassportCode")
     private String PassportCode;
 
     @Column(name = "PhoneNumber")

@@ -1,6 +1,5 @@
 package com.bank.model;
 
-import com.bank.dao.domain.CardBalance;
 import com.bank.dao.domain.enums.CardPrivilege;
 import com.bank.dao.domain.enums.CardType;
 import com.bank.dto.Card.CardDto;

@@ -7,7 +7,6 @@ import com.bank.dao.domain.enums.CardType;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 
-import javax.persistence.Column;
 import java.util.Date;
 
 @Data

@@ -2,7 +2,6 @@ package com.bank.dto.User;
 
 import com.bank.dao.domain.User;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.util.Date;
