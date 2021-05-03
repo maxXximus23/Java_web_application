@@ -26,7 +26,7 @@ public class CardDto {
     private CardBalance Balance;
 
 
-    public CardDto(Card card) {
+    /*public CardDto(Card card) {
         this.Id = card.getId();
         this.Number = card.getNumber();
         this.ExpirationDate = card.getExpirationDate();
@@ -39,5 +39,9 @@ public class CardDto {
         this.LockedById = card.getLockedById();
         this.BalanceId = card.getBalanceId();
         this.Balance = card.getBalance();
+    }*/
+
+    public CardDto() {
+
     }
 }
