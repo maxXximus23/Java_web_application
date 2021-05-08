@@ -18,6 +18,6 @@ public class UserController {
     @GetMapping("{id}/balance")
     @ResponseStatus(HttpStatus.OK)
     public List<CardModel> getUserBalanceById(@PathVariable Integer id){
-        return Mapper.mapCardsDtoToCardsModel(userService.getUserBalanceById(id));
+        return Mapper.mapCardsDtoToModels(userService.getUserBalanceById(id));
     }
 }
