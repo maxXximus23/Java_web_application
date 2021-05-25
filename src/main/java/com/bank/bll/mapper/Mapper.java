@@ -1,7 +1,6 @@
 package com.bank.bll.mapper;
 
 import com.bank.config.ApplicationConfig;
-import com.bank.dao.domain.Card;
 import com.bank.dto.Card.CardDto;
 import com.bank.dto.User.UserPaymentsHistoryDto;
 import com.bank.model.CardModel;
@@ -32,7 +31,7 @@ public class Mapper {
                 .collect(Collectors.toList());
     }
 
-    public static <S, T> List<T> mapList(Set<S> source, Class<T> targetClass) {
+    public static <S, T> List<T> mapSetToListDto(Set<S> source, Class<T> targetClass) {
         return source
                 .stream()
                 .map(element -> modelMapper.map(element, targetClass))

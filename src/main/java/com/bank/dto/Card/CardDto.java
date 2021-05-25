@@ -1,6 +1,5 @@
 package com.bank.dto.Card;
 
-import com.bank.dao.domain.Card;
 import com.bank.dao.domain.CardBalance;
 import com.bank.dao.domain.enums.CardPrivilege;
 import com.bank.dao.domain.enums.CardType;

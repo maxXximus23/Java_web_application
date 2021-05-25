@@ -5,8 +5,6 @@ import com.bank.utils.DateFormatUtil;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 
-import java.text.DateFormat;
-
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class UserPaymentsHistoryModel {
