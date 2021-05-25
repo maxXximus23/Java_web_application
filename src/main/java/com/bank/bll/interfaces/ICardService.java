@@ -1,9 +1,7 @@
 package com.bank.bll.interfaces;
 
-import com.bank.dto.User.UserPaymentsHistoryDto;
-
-import java.util.List;
+import com.bank.dto.User.CountUserPaymentsHistoryDto;
 
 public interface ICardService {
-    List<UserPaymentsHistoryDto> getUserPaymentsHistoryById(Integer Id);
+    CountUserPaymentsHistoryDto getUserPaymentsHistoryById(Integer Id, int limit, int offset);
 }

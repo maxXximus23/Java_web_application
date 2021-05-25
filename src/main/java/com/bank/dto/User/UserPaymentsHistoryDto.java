@@ -1,6 +1,5 @@
 package com.bank.dto.User;
 
-import com.bank.dao.domain.UserPaymentsHistory;
 import com.bank.dao.domain.enums.CardOperationType;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
